@@ -1,0 +1,580 @@
+[INFO][server.go:44] 2023/04/06 12:56:23 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 12:56:25 accept link
+[INFO][server.go:56] 2023/04/06 12:58:29 get exit signal
+[INFO][server.go:61] 2023/04/06 12:58:29 shutting down...
+[INFO][server.go:44] 2023/04/06 13:01:26 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:01:35 accept link
+[INFO][handler.go:66] 2023/04/06 13:04:10 connection closed: 127.0.0.1:55371
+[INFO][server.go:56] 2023/04/06 13:04:12 get exit signal
+[INFO][server.go:61] 2023/04/06 13:04:12 shutting down...
+[INFO][server.go:44] 2023/04/06 13:04:20 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:04:22 accept link
+[INFO][memgoDB.go:40] 2023/04/06 13:04:29 receive cmd: set
+[INFO][server.go:56] 2023/04/06 13:05:33 get exit signal
+[INFO][server.go:61] 2023/04/06 13:05:33 shutting down...
+[INFO][handler.go:111] 2023/04/06 13:05:33 handler shutting down...
+[INFO][handler.go:66] 2023/04/06 13:05:33 connection closed: 127.0.0.1:55425
+[INFO][server.go:44] 2023/04/06 13:05:38 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:05:38 accept link
+[INFO][memgoDB.go:40] 2023/04/06 13:05:41 receive cmd: set
+[INFO][server.go:56] 2023/04/06 13:07:03 get exit signal
+[INFO][server.go:61] 2023/04/06 13:07:03 shutting down...
+[INFO][handler.go:111] 2023/04/06 13:07:03 handler shutting down...
+[INFO][handler.go:66] 2023/04/06 13:07:03 connection closed: 127.0.0.1:55435
+[INFO][server.go:44] 2023/04/06 13:07:51 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:07:53 accept link
+[INFO][memgoDB.go:40] 2023/04/06 13:07:55 receive cmd: set
+[INFO][database.go:42] 2023/04/06 13:07:55 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:07:55 [[115 101 116] [107 101 121] [118 97 108 117 101]]
+[INFO][server.go:56] 2023/04/06 13:08:23 get exit signal
+[INFO][server.go:61] 2023/04/06 13:08:23 shutting down...
+[INFO][handler.go:111] 2023/04/06 13:08:23 handler shutting down...
+[INFO][handler.go:66] 2023/04/06 13:08:23 connection closed: 127.0.0.1:55489
+[INFO][server.go:44] 2023/04/06 13:08:32 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:08:33 accept link
+[INFO][memgoDB.go:40] 2023/04/06 13:08:36 receive cmd: set
+[INFO][database.go:42] 2023/04/06 13:08:36 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:08:36 [[115 101 116] [107 101 121] [118 97 108 117 101]]
+[INFO][database.go:55] 2023/04/06 13:08:36 find the executor: 
+[INFO][database.go:56] 2023/04/06 13:08:36 0x990220
+[INFO][memgoDB.go:40] 2023/04/06 13:08:59 receive cmd: get
+[INFO][database.go:42] 2023/04/06 13:08:59 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:08:59 [[103 101 116] [107 101 121]]
+[INFO][database.go:55] 2023/04/06 13:08:59 find the executor: 
+[INFO][database.go:56] 2023/04/06 13:08:59 0x9900e0
+[INFO][server.go:56] 2023/04/06 13:11:02 get exit signal
+[INFO][server.go:61] 2023/04/06 13:11:02 shutting down...
+[INFO][handler.go:111] 2023/04/06 13:11:02 handler shutting down...
+[INFO][handler.go:66] 2023/04/06 13:11:02 connection closed: 127.0.0.1:55501
+[INFO][server.go:44] 2023/04/06 13:11:10 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:11:12 accept link
+[INFO][memgoDB.go:40] 2023/04/06 13:11:16 receive cmd: SET
+[INFO][database.go:42] 2023/04/06 13:11:16 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:11:16 [[83 69 84] [107 101 121] [118 97 108 117 101]]
+[INFO][database.go:55] 2023/04/06 13:11:16 find the executor: 
+[INFO][database.go:56] 2023/04/06 13:11:16 0x730280
+[INFO][memgoDB.go:40] 2023/04/06 13:11:23 receive cmd: get
+[INFO][database.go:42] 2023/04/06 13:11:23 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:11:23 [[103 101 116] [107 101 121]]
+[INFO][database.go:55] 2023/04/06 13:11:23 find the executor: 
+[INFO][database.go:56] 2023/04/06 13:11:23 0x730100
+[INFO][string.go:17] 2023/04/06 13:11:23 value
+[ERROR][string.go:27] 2023/04/06 13:11:23 WRONGTYPE Operation against a key holding the wrong kind of value
+[INFO][server.go:56] 2023/04/06 13:14:28 get exit signal
+[INFO][server.go:61] 2023/04/06 13:14:28 shutting down...
+[INFO][handler.go:111] 2023/04/06 13:14:28 handler shutting down...
+[INFO][handler.go:66] 2023/04/06 13:14:28 connection closed: 127.0.0.1:55521
+[INFO][server.go:44] 2023/04/06 13:14:32 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:14:33 accept link
+[INFO][memgoDB.go:40] 2023/04/06 13:14:35 receive cmd: get
+[INFO][database.go:42] 2023/04/06 13:14:35 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:14:35 [[103 101 116] [107 101 121]]
+[INFO][database.go:55] 2023/04/06 13:14:35 find the executor: 
+[INFO][database.go:56] 2023/04/06 13:14:35 0x730100
+[INFO][memgoDB.go:40] 2023/04/06 13:14:42 receive cmd: SET
+[INFO][database.go:42] 2023/04/06 13:14:42 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:14:42 [[83 69 84] [107 101 121] [118 97 108 117 101]]
+[INFO][database.go:55] 2023/04/06 13:14:42 find the executor: 
+[INFO][database.go:56] 2023/04/06 13:14:42 0x730280
+[INFO][memgoDB.go:40] 2023/04/06 13:14:46 receive cmd: get
+[INFO][database.go:42] 2023/04/06 13:14:46 recv cmd: 
+[INFO][database.go:43] 2023/04/06 13:14:46 [[103 101 116] [107 101 121]]
+[INFO][database.go:55] 2023/04/06 13:14:46 find the executor: 
+[INFO][database.go:56] 2023/04/06 13:14:46 0x730100
+[INFO][memgoDB.go:40] 2023/04/06 13:15:09 receive cmd: select
+[INFO][handler.go:66] 2023/04/06 13:15:53 connection closed: 127.0.0.1:55546
+[INFO][server.go:56] 2023/04/06 13:15:57 get exit signal
+[INFO][server.go:61] 2023/04/06 13:15:57 shutting down...
+[INFO][server.go:44] 2023/04/06 13:17:59 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:18:05 accept link
+[INFO][server.go:76] 2023/04/06 13:18:40 accept link
+[ERROR][handler.go:91] 2023/04/06 13:19:50 require multi bulk protocol: $5
+value
+
+[INFO][server.go:56] 2023/04/06 13:20:20 get exit signal
+[INFO][server.go:61] 2023/04/06 13:20:20 shutting down...
+[INFO][server.go:44] 2023/04/06 13:44:47 bind: 127.0.0.1:8000, start listening...
+[INFO][server.go:76] 2023/04/06 13:45:06 accept link
+[ERROR][handler.go:91] 2023/04/06 13:45:12 require multi bulk protocol: $3
+key
+
+[ERROR][handler.go:91] 2023/04/06 13:45:12 require multi bulk protocol: $5
+value
+
+[ERROR][handler.go:91] 2023/04/06 13:45:35 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:48:09 require multi bulk protocol: $3
+key
+
+[ERROR][handler.go:91] 2023/04/06 13:48:09 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:48:15 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:48:28 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:51:18 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:51:18 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:51:45 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:51:45 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:51:49 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:51:49 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:52:09 require multi bulk protocol: $3
+set
+
+[ERROR][handler.go:91] 2023/04/06 13:52:09 require multi bulk protocol: $5
+abcde
+
+[ERROR][handler.go:91] 2023/04/06 13:52:09 require multi bulk protocol: $5
+abcde
+
+[INFO][handler.go:66] 2023/04/06 13:52:25 connection closed: 127.0.0.1:56015
+[INFO][server.go:56] 2023/04/06 13:52:30 get exit signal
+[INFO][server.go:61] 2023/04/06 13:52:30 shutting down...
+[INFO][server.go:44] 2023/04/06 16:20:55 bind: 0.0.0.0:8000, start listening...
+[INFO][server.go:76] 2023/04/06 16:20:59 accept link
+[INFO][handler.go:66] 2023/04/06 16:22:06 connection closed: 127.0.0.1:54659
+[INFO][server.go:56] 2023/04/06 16:22:11 get exit signal
+[INFO][server.go:61] 2023/04/06 16:22:11 shutting down...
+[INFO][server.go:44] 2023/04/06 21:22:44 bind: 0.0.0.0:8000, start listening...
+[INFO][server.go:56] 2023/04/06 21:23:13 get exit signal
+[INFO][server.go:61] 2023/04/06 21:23:13 shutting down...
+[INFO][server.go:44] 2023/04/06 21:23:16 bind: 0.0.0.0:8000, start listening...
+[INFO][server.go:76] 2023/04/06 21:23:31 accept link
+[INFO][handler.go:66] 2023/04/06 21:27:34 connection closed: 127.0.0.1:51821
+[INFO][server.go:56] 2023/04/06 21:28:01 get exit signal
+[INFO][server.go:61] 2023/04/06 21:28:01 shutting down...
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:28:46 runtime error: invalid memory address or nil pointer dereference
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:33:25 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:112] 2023/04/06 21:42:18 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:115] 2023/04/06 21:42:18 payload recv by ch:  &{0xc000090000 <nil>}
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:42:18 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:112] 2023/04/06 21:43:29 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:116] 2023/04/06 21:43:29 payload recv by ch:  [42 51 13 10 36 51 13 10 83 69 84 13 10 36 50 13 10 107 50 13 10 36 51 13 10 118 97 108 13 10]
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:43:29 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:112] 2023/04/06 21:43:44 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:116] 2023/04/06 21:43:44 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:43:44 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:113] 2023/04/06 21:47:35 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:118] 2023/04/06 21:47:35 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[INFO][aof_noReWrite.go:113] 2023/04/06 21:48:20 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:118] 2023/04/06 21:48:20 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[INFO][aof_noReWrite.go:113] 2023/04/06 21:51:02 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:118] 2023/04/06 21:51:02 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:51:02 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:113] 2023/04/06 21:54:22 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:118] 2023/04/06 21:54:22 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:54:22 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:113] 2023/04/06 21:55:50 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:118] 2023/04/06 21:55:50 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:55:50 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:47] 2023/04/06 21:59:26 testaof
+[INFO][aof_noReWrite.go:115] 2023/04/06 21:59:26 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:120] 2023/04/06 21:59:26 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 21:59:26 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:47] 2023/04/06 22:08:56 testaof
+[INFO][aof_noReWrite.go:115] 2023/04/06 22:08:56 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:08:56 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 22:08:56 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:47] 2023/04/06 22:10:56 testaof
+[INFO][aof_noReWrite.go:115] 2023/04/06 22:10:56 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:10:56 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[INFO][SimpleMemgoDB.go:68] 2023/04/06 22:10:56 SET
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 22:10:56 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:47] 2023/04/06 22:11:46 testaof
+[INFO][aof_noReWrite.go:115] 2023/04/06 22:11:46 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:11:46 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[INFO][SimpleMemgoDB.go:68] 2023/04/06 22:11:46 SET
+[INFO][SimpleMemgoDB.go:80] 2023/04/06 22:11:46 &{0 0xc000124030 <nil>}
+[ERROR][SimpleMemgoDB.go:64] 2023/04/06 22:11:46 runtime error: invalid memory address or nil pointer dereference
+[INFO][aof_noReWrite.go:47] 2023/04/06 22:13:32 testaof
+[INFO][aof_noReWrite.go:115] 2023/04/06 22:13:32 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 SET
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:13:32 &{0 0xc000020540 0x793220}
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *3
+$3
+SET
+$2
+k3
+$3
+val
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 SET
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:13:32 &{0 0xc000020540 0x793220}
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *3
+$3
+SET
+$2
+k1
+$3
+val
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 SET
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:13:32 &{0 0xc000020540 0x793220}
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *1
+$7
+FLUSHDB
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 FLUSHDB
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:13:32 &{0 0xc000020540 0x793220}
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *3
+$3
+SET
+$3
+key
+$5
+value
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 SET
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:13:32 &{0 0xc000020540 0x793220}
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *3
+$6
+GETSET
+$3
+key
+$3
+VAL
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 GETSET
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:13:32 &{0 0xc000020540 0x793220}
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 $5
+value
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *2
+$6
+SELECT
+$1
+1
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 SELECT
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:13:32 payload recv by ch:  *3
+$6
+GETSET
+$3
+key
+$3
+VAL
+
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:13:32 GETSET
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:13:32 &{1 0xc000020570 0x793220}
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:13:32 $-1
+
+[INFO][aof_noReWrite.go:124] 2023/04/06 22:13:32 payload recv by ch:  EOF
+[INFO][server.go:44] 2023/04/06 22:13:32 bind: 0.0.0.0:8000, start listening...
+[INFO][server.go:76] 2023/04/06 22:14:41 accept link
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:14:44 get
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:14:44 &{0 0xc000020540 0x790520}
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:15:01 set
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:15:01 &{0 0xc000020540 0x790520}
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:15:14 select
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:15:20 get
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:15:20 &{0 0xc000020540 0x790520}
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:15:25 select
+[INFO][SimpleMemgoDB.go:67] 2023/04/06 22:15:34 get
+[INFO][SimpleMemgoDB.go:79] 2023/04/06 22:15:34 &{1 0xc000020570 0x790520}
+[INFO][handler.go:66] 2023/04/06 22:15:40 connection closed: 127.0.0.1:53805
+[INFO][server.go:56] 2023/04/06 22:16:27 get exit signal
+[INFO][server.go:61] 2023/04/06 22:16:27 shutting down...
+[INFO][aof_noReWrite.go:47] 2023/04/06 22:52:08 testaof
+[INFO][aof_noReWrite.go:115] 2023/04/06 22:52:08 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *3
+$3
+SET
+$2
+k3
+$3
+val
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *3
+$3
+SET
+$2
+k1
+$3
+val
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *1
+$7
+FLUSHDB
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *3
+$3
+SET
+$3
+key
+$5
+value
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *3
+$6
+GETSET
+$3
+key
+$3
+VAL
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 $5
+value
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *2
+$6
+SELECT
+$1
+1
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *3
+$6
+GETSET
+$3
+key
+$3
+VAL
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 $-1
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *2
+$6
+SELECT
+$1
+0
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:08 payload recv by ch:  *3
+$3
+SET
+$3
+key
+$3
+111
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:08 +OK
+
+[INFO][aof_noReWrite.go:124] 2023/04/06 22:52:08 payload recv by ch:  EOF
+[INFO][server.go:44] 2023/04/06 22:52:08 bind: 0.0.0.0:8000, start listening...
+[INFO][server.go:56] 2023/04/06 22:52:19 get exit signal
+[INFO][server.go:61] 2023/04/06 22:52:19 shutting down...
+[INFO][aof_noReWrite.go:47] 2023/04/06 22:52:22 testaof
+[INFO][aof_noReWrite.go:115] 2023/04/06 22:52:22 <loadAof> normal chan return by ParseStream
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *3
+$3
+SET
+$2
+k2
+$3
+val
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *3
+$3
+SET
+$2
+k3
+$3
+val
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *3
+$3
+SET
+$2
+k1
+$3
+val
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *1
+$7
+FLUSHDB
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *3
+$3
+SET
+$3
+key
+$5
+value
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *3
+$6
+GETSET
+$3
+key
+$3
+VAL
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 $5
+value
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *2
+$6
+SELECT
+$1
+1
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *3
+$6
+GETSET
+$3
+key
+$3
+VAL
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 $-1
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *2
+$6
+SELECT
+$1
+0
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:122] 2023/04/06 22:52:22 payload recv by ch:  *3
+$3
+SET
+$3
+key
+$3
+111
+
+[INFO][aof_noReWrite.go:155] 2023/04/06 22:52:22 +OK
+
+[INFO][aof_noReWrite.go:124] 2023/04/06 22:52:22 payload recv by ch:  EOF
+[INFO][server.go:44] 2023/04/06 22:52:22 bind: 0.0.0.0:8000, start listening...
+[INFO][server.go:56] 2023/04/06 22:52:27 get exit signal
+[INFO][server.go:61] 2023/04/06 22:52:27 shutting down...

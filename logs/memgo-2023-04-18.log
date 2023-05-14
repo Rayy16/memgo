@@ -1,0 +1,170 @@
+[INFO][server.go:44] 2023/04/18 01:03:07 bind: 0.0.0.0:6379, start listening...
+[INFO][server.go:76] 2023/04/18 01:03:16 accept link
+[WARN][MemgoDB_server.go:83] 2023/04/18 01:04:30 error occurs: interface conversion: interface {} is nil, not string
+goroutine 15 [running]:
+runtime/debug.Stack()
+	C:/Go/src/runtime/debug/stack.go:24 +0x65
+memgo/database.(*MemgoServer).Exec.func1()
+	C:/GoProject/memgo/database/MemgoDB_server.go:83 +0x46
+panic({0xf6cd20, 0xc00020a060})
+	C:/Go/src/runtime/panic.go:884 +0x213
+memgo/datastruct/dict.(*SimpleDict).RandomKeys(0xc00000a060, 0x1)
+	C:/GoProject/memgo/datastruct/dict/simpleDict.go:93 +0x13a
+memgo/datastruct/set.(*Set).RandomMembers(...)
+	C:/GoProject/memgo/datastruct/set/set.go:93
+memgo/database.execSPop({0xfbec18?, 0xc0000260c0}, {0xc0001412a8?, 0x4?, 0x0?})
+	C:/GoProject/memgo/database/set.go:72 +0xd9
+memgo/database.(*DbObject).execNormalCommand(0xc0000260c0, {0xc000141290, 0x2, 0x2})
+	C:/GoProject/memgo/database/dbObject.go:103 +0x2e3
+memgo/database.(*DbObject).Exec(...)
+	C:/GoProject/memgo/database/dbObject.go:82
+memgo/database.(*MemgoServer).Exec(0xc000052560, {0xfbdfe0, 0xc00020a000}, {0xc000141290?, 0x2, 0x2})
+	C:/GoProject/memgo/database/MemgoDB_server.go:102 +0x289
+memgo/redis/RESP/handler.(*RespHandler).Handle(0xc0000264c0, {0x0?, 0x0?}, {0xfbe990, 0xc00000a058})
+	C:/GoProject/memgo/redis/RESP/handler/handler.go:94 +0x1ac
+memgo/tcp.ListenAndServe.func2()
+	C:/GoProject/memgo/tcp/server.go:85 +0x71
+created by memgo/tcp.ListenAndServe
+	C:/GoProject/memgo/tcp/server.go:80 +0x185
+
+[WARN][MemgoDB_server.go:83] 2023/04/18 01:04:57 error occurs: interface conversion: interface {} is nil, not string
+goroutine 15 [running]:
+runtime/debug.Stack()
+	C:/Go/src/runtime/debug/stack.go:24 +0x65
+memgo/database.(*MemgoServer).Exec.func1()
+	C:/GoProject/memgo/database/MemgoDB_server.go:83 +0x46
+panic({0xf6cd20, 0xc00009a000})
+	C:/Go/src/runtime/panic.go:884 +0x213
+memgo/datastruct/dict.(*SimpleDict).RandomKeys(0xc00000a060, 0x1)
+	C:/GoProject/memgo/datastruct/dict/simpleDict.go:93 +0x13a
+memgo/datastruct/set.(*Set).RandomMembers(...)
+	C:/GoProject/memgo/datastruct/set/set.go:93
+memgo/database.execSPop({0xfbec18?, 0xc0000260c0}, {0xc0001412d8?, 0x4?, 0x0?})
+	C:/GoProject/memgo/database/set.go:72 +0xd9
+memgo/database.(*DbObject).execNormalCommand(0xc0000260c0, {0xc0001412c0, 0x2, 0x2})
+	C:/GoProject/memgo/database/dbObject.go:103 +0x2e3
+memgo/database.(*DbObject).Exec(...)
+	C:/GoProject/memgo/database/dbObject.go:82
+memgo/database.(*MemgoServer).Exec(0xc000052560, {0xfbdfe0, 0xc00020a000}, {0xc0001412c0?, 0x2, 0x2})
+	C:/GoProject/memgo/database/MemgoDB_server.go:102 +0x289
+memgo/redis/RESP/handler.(*RespHandler).Handle(0xc0000264c0, {0x0?, 0x0?}, {0xfbe990, 0xc00000a058})
+	C:/GoProject/memgo/redis/RESP/handler/handler.go:94 +0x1ac
+memgo/tcp.ListenAndServe.func2()
+	C:/GoProject/memgo/tcp/server.go:85 +0x71
+created by memgo/tcp.ListenAndServe
+	C:/GoProject/memgo/tcp/server.go:80 +0x185
+
+[WARN][MemgoDB_server.go:83] 2023/04/18 01:24:20 error occurs: runtime error: index out of range [1] with length 1
+goroutine 15 [running]:
+runtime/debug.Stack()
+	C:/Go/src/runtime/debug/stack.go:24 +0x65
+memgo/database.(*MemgoServer).Exec.func1()
+	C:/GoProject/memgo/database/MemgoDB_server.go:83 +0x46
+panic({0xf80f40, 0xc0001db428})
+	C:/Go/src/runtime/panic.go:884 +0x213
+memgo/database.execSRandMember({0xfbec18?, 0xc0000260c0}, {0xc00020a138, 0x1, 0xc0000501f0?})
+	C:/GoProject/memgo/database/set.go:79 +0x43a
+memgo/database.(*DbObject).execNormalCommand(0xc0000260c0, {0xc00020a120, 0x2, 0x2})
+	C:/GoProject/memgo/database/dbObject.go:103 +0x2e3
+memgo/database.(*DbObject).Exec(...)
+	C:/GoProject/memgo/database/dbObject.go:82
+memgo/database.(*MemgoServer).Exec(0xc000052560, {0xfbdfe0, 0xc00020a000}, {0xc00020a120?, 0x2, 0x2})
+	C:/GoProject/memgo/database/MemgoDB_server.go:102 +0x289
+memgo/redis/RESP/handler.(*RespHandler).Handle(0xc0000264c0, {0x0?, 0x0?}, {0xfbe990, 0xc00000a058})
+	C:/GoProject/memgo/redis/RESP/handler/handler.go:94 +0x1ac
+memgo/tcp.ListenAndServe.func2()
+	C:/GoProject/memgo/tcp/server.go:85 +0x71
+created by memgo/tcp.ListenAndServe
+	C:/GoProject/memgo/tcp/server.go:80 +0x185
+
+[WARN][MemgoDB_server.go:83] 2023/04/18 01:25:22 error occurs: interface conversion: interface {} is nil, not string
+goroutine 15 [running]:
+runtime/debug.Stack()
+	C:/Go/src/runtime/debug/stack.go:24 +0x65
+memgo/database.(*MemgoServer).Exec.func1()
+	C:/GoProject/memgo/database/MemgoDB_server.go:83 +0x46
+panic({0xf6cd20, 0xc0001412f0})
+	C:/Go/src/runtime/panic.go:884 +0x213
+memgo/datastruct/dict.(*SimpleDict).RandomKeys(0xc00000a060, 0x1)
+	C:/GoProject/memgo/datastruct/dict/simpleDict.go:93 +0x13a
+memgo/datastruct/set.(*Set).RandomMembers(...)
+	C:/GoProject/memgo/datastruct/set/set.go:93
+memgo/database.execSPop({0xfbec18?, 0xc0000260c0}, {0xc00009a0a8?, 0x4?, 0x0?})
+	C:/GoProject/memgo/database/set.go:72 +0xd9
+memgo/database.(*DbObject).execNormalCommand(0xc0000260c0, {0xc00009a090, 0x2, 0x2})
+	C:/GoProject/memgo/database/dbObject.go:103 +0x2e3
+memgo/database.(*DbObject).Exec(...)
+	C:/GoProject/memgo/database/dbObject.go:82
+memgo/database.(*MemgoServer).Exec(0xc000052560, {0xfbdfe0, 0xc00020a000}, {0xc00009a090?, 0x2, 0x2})
+	C:/GoProject/memgo/database/MemgoDB_server.go:102 +0x289
+memgo/redis/RESP/handler.(*RespHandler).Handle(0xc0000264c0, {0x0?, 0x0?}, {0xfbe990, 0xc00000a058})
+	C:/GoProject/memgo/redis/RESP/handler/handler.go:94 +0x1ac
+memgo/tcp.ListenAndServe.func2()
+	C:/GoProject/memgo/tcp/server.go:85 +0x71
+created by memgo/tcp.ListenAndServe
+	C:/GoProject/memgo/tcp/server.go:80 +0x185
+
+[INFO][server.go:56] 2023/04/18 01:25:44 get exit signal
+[INFO][server.go:61] 2023/04/18 01:25:44 shutting down...
+[INFO][handler.go:111] 2023/04/18 01:25:44 handler shutting down...
+[INFO][handler.go:66] 2023/04/18 01:25:44 connection closed: 127.0.0.1:62824
+[INFO][server.go:44] 2023/04/18 01:35:21 bind: 0.0.0.0:6379, start listening...
+[INFO][server.go:76] 2023/04/18 01:35:28 accept link
+[INFO][handler.go:75] 2023/04/18 01:42:20 write back <-read tcp 127.0.0.1:6379->127.0.0.1:55387: wsarecv: An existing connection was forcibly closed by the remote host.
+> to client error: write tcp 127.0.0.1:6379->127.0.0.1:55387: wsasend: An existing connection was forcibly closed by the remote host.
+[INFO][handler.go:76] 2023/04/18 01:42:20 connection closed: 127.0.0.1:55387
+[INFO][server.go:76] 2023/04/18 01:43:07 accept link
+[INFO][handler.go:75] 2023/04/18 01:44:38 write back <-read tcp 127.0.0.1:6379->127.0.0.1:58018: wsarecv: An existing connection was forcibly closed by the remote host.
+> to client error: write tcp 127.0.0.1:6379->127.0.0.1:58018: wsasend: An existing connection was forcibly closed by the remote host.
+[INFO][handler.go:76] 2023/04/18 01:44:38 connection closed: 127.0.0.1:58018
+[INFO][server.go:76] 2023/04/18 01:44:39 accept link
+[INFO][server.go:56] 2023/04/18 02:03:00 get exit signal
+[INFO][server.go:61] 2023/04/18 02:03:00 shutting down...
+[INFO][handler.go:111] 2023/04/18 02:03:00 handler shutting down...
+[INFO][handler.go:66] 2023/04/18 02:03:00 connection closed: 127.0.0.1:58497
+[INFO][server.go:44] 2023/04/18 02:03:11 bind: 0.0.0.0:6379, start listening...
+[INFO][server.go:76] 2023/04/18 02:03:15 accept link
+[INFO][handler.go:75] 2023/04/18 02:03:43 write back <-read tcp 127.0.0.1:6379->127.0.0.1:62940: wsarecv: An existing connection was forcibly closed by the remote host.
+> to client error: write tcp 127.0.0.1:6379->127.0.0.1:62940: wsasend: An existing connection was forcibly closed by the remote host.
+[INFO][handler.go:76] 2023/04/18 02:03:43 connection closed: 127.0.0.1:62940
+[INFO][server.go:76] 2023/04/18 02:03:46 accept link
+[INFO][server.go:56] 2023/04/18 02:08:02 get exit signal
+[INFO][server.go:61] 2023/04/18 02:08:02 shutting down...
+[INFO][handler.go:111] 2023/04/18 02:08:02 handler shutting down...
+[INFO][handler.go:66] 2023/04/18 02:08:02 connection closed: 127.0.0.1:62941
+[INFO][server.go:44] 2023/04/18 02:08:44 bind: 0.0.0.0:6379, start listening...
+[INFO][server.go:76] 2023/04/18 02:08:47 accept link
+[WARN][MemgoDB_server.go:83] 2023/04/18 02:09:55 error occurs: runtime error: index out of range [1] with length 1
+goroutine 11 [running]:
+runtime/debug.Stack()
+	C:/Go/src/runtime/debug/stack.go:24 +0x65
+memgo/database.(*MemgoServer).Exec.func1()
+	C:/GoProject/memgo/database/MemgoDB_server.go:83 +0x46
+panic({0x450f40, 0xc0001db428})
+	C:/Go/src/runtime/panic.go:884 +0x213
+memgo/database.execSRandMember({0x48ec38?, 0xc0000260c0}, {0xc000222078, 0x1, 0xc000050310?})
+	C:/GoProject/memgo/database/set.go:79 +0x43a
+memgo/database.(*DbObject).execNormalCommand(0xc0000260c0, {0xc000222060, 0x2, 0x2})
+	C:/GoProject/memgo/database/dbObject.go:103 +0x2e3
+memgo/database.(*DbObject).Exec(...)
+	C:/GoProject/memgo/database/dbObject.go:82
+memgo/database.(*MemgoServer).Exec(0xc000052560, {0x48e000, 0xc00010e000}, {0xc000222060?, 0x2, 0x2})
+	C:/GoProject/memgo/database/MemgoDB_server.go:102 +0x289
+memgo/redis/RESP/handler.(*RespHandler).Handle(0xc0000264c0, {0x0?, 0x0?}, {0x48e9b0, 0xc00000a058})
+	C:/GoProject/memgo/redis/RESP/handler/handler.go:94 +0x1ac
+memgo/tcp.ListenAndServe.func2()
+	C:/GoProject/memgo/tcp/server.go:85 +0x71
+created by memgo/tcp.ListenAndServe
+	C:/GoProject/memgo/tcp/server.go:80 +0x185
+
+[INFO][server.go:56] 2023/04/18 02:11:52 get exit signal
+[INFO][server.go:61] 2023/04/18 02:11:52 shutting down...
+[INFO][handler.go:111] 2023/04/18 02:11:52 handler shutting down...
+[INFO][handler.go:66] 2023/04/18 02:11:52 connection closed: 127.0.0.1:65075
+[INFO][server.go:44] 2023/04/18 02:11:58 bind: 0.0.0.0:6379, start listening...
+[INFO][server.go:76] 2023/04/18 02:12:01 accept link
+[INFO][handler.go:75] 2023/04/18 02:12:23 write back <-read tcp 127.0.0.1:6379->127.0.0.1:49685: wsarecv: An existing connection was forcibly closed by the remote host.
+> to client error: write tcp 127.0.0.1:6379->127.0.0.1:49685: wsasend: An existing connection was forcibly closed by the remote host.
+[INFO][handler.go:76] 2023/04/18 02:12:23 connection closed: 127.0.0.1:49685
+[INFO][server.go:56] 2023/04/18 02:12:24 get exit signal
+[INFO][server.go:61] 2023/04/18 02:12:24 shutting down...

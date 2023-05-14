@@ -1,0 +1,7 @@
+[INFO][server.go:44] 2023/04/17 23:44:55 bind: 0.0.0.0:6379, start listening...
+[INFO][server.go:76] 2023/04/17 23:46:10 accept link
+[INFO][handler.go:75] 2023/04/17 23:46:32 write back <-read tcp 127.0.0.1:6379->127.0.0.1:61276: wsarecv: An existing connection was forcibly closed by the remote host.
+> to client error: write tcp 127.0.0.1:6379->127.0.0.1:61276: wsasend: An existing connection was forcibly closed by the remote host.
+[INFO][handler.go:76] 2023/04/17 23:46:32 connection closed: 127.0.0.1:61276
+[INFO][server.go:56] 2023/04/18 01:03:01 get exit signal
+[INFO][server.go:61] 2023/04/18 01:03:01 shutting down...
