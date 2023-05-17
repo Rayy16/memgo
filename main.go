@@ -21,10 +21,10 @@ var banner = `
 var defaultProperties = &config.ServerProperties{
 	Bind:           "0.0.0.0",
 	Port:           6379,
-	AppendOnly:     false,
-	AppendFsync:    "no",
-	AppendFilename: "testAof_4_8.aof",
-	MaxClients:     1000,
+	AppendOnly:     true,
+	AppendFsync:    "everysec",
+	AppendFilename: "0517test.aof",
+	MaxClients:     5000,
 	RunID:          utils.RandString(40),
 }
 
